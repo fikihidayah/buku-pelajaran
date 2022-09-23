@@ -76,76 +76,6 @@ function Yt({ route }) {
   );
 }
 
-function Gambar() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        padding: 10,
-        flexDirection: 'row',
-        backgroundColor: '#eee',
-        flexWrap: 'wrap',
-      }}
-    >
-      <Image
-        source={logoReact}
-        style={{
-          width: 100,
-          height: 100,
-          borderWidth: 1,
-          borderColor: '#ccc',
-          marginRight: 5,
-          marginBottom: 10,
-        }}
-      />
-      <Image
-        source={logoReact}
-        style={{
-          width: 100,
-          height: 100,
-          borderWidth: 1,
-          borderColor: '#ccc',
-          marginRight: 5,
-          marginBottom: 10,
-        }}
-      />
-      <Image
-        source={logoReact}
-        style={{
-          width: 100,
-          height: 100,
-          borderWidth: 1,
-          borderColor: '#ccc',
-          marginRight: 5,
-          marginBottom: 10,
-        }}
-      />
-      <Image
-        source={logoReact}
-        style={{
-          width: 100,
-          height: 100,
-          borderWidth: 1,
-          borderColor: '#ccc',
-          marginRight: 5,
-          marginBottom: 10,
-        }}
-      />
-      <Image
-        source={logoReact}
-        style={{
-          width: 100,
-          height: 100,
-          borderWidth: 1,
-          borderColor: '#ccc',
-          marginRight: 5,
-          marginBottom: 10,
-        }}
-      />
-    </View>
-  );
-}
-
 function DetailBuku({ route }) {
   const { kelas, jenis_pelajaran, penerbit } = route.params;
   return (
@@ -371,7 +301,6 @@ function Detail({ navigation, route }) {
                     component={Yt}
                     initialParams={{ link_yt }}
                   />
-                  <Tab.Screen name="Gambar" component={Gambar} />
                 </Tab.Navigator>
               </NavigationContainer>
             )}
