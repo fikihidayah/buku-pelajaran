@@ -250,6 +250,23 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.release
         }
+        // add the code from below line
+        applicationVariants.all{
+            // this method is use to rename your all apk weather
+            // it may be signed or unsigned(debug apk)
+            variant ->
+                variant.outputs.each{
+                    // on below line we are setting
+                    // a name to our apk as Ebook.apk
+                    output->
+                        // on below line we are adding version name to
+                        // our .apk file along with the app name
+                        def name = "Ebook(${variant.versionName}).apk"
+                        // on below line we are setting the
+                        // outputFile Name to our apk file
+                        output.outputFileName = name
+                }
+        }
     }
 
     // applicationVariants are e.g. debug, release
