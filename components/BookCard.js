@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
   },
   penulis: {
     fontFamily: 'poppins_regular',
+    color: '#333',
     fontSize: 12,
   },
   mapel: {
