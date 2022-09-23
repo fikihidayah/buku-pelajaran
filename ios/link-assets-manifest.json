@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "b07a21ceab12269a2cbdd9e76a8aa7b5077d4022"
+    },
+    {
+      "path": "assets/fonts/poppins_bold.ttf",
+      "sha1": "974b66074f1e265c0d203a4e2989c6120af3bc55"
+    },
+    {
+      "path": "assets/fonts/poppins_light.ttf",
+      "sha1": "107454fb84957d1ea4bd4c0335377df253eb2258"
+    },
+    {
+      "path": "assets/fonts/poppins_medium.ttf",
+      "sha1": "6575dbf38e9e61beec498e2be61c89d43399db24"
+    },
+    {
+      "path": "assets/fonts/poppins_regular.ttf",
+      "sha1": "dd48971530e3f19f7067ad80ce6c215365fe7269"
+    },
+    {
+      "path": "assets/fonts/poppins_semi_bold.ttf",
+      "sha1": "33cccb49029917a6175e7e7a754e296d518c2710"
+    }
+  ]
+}
